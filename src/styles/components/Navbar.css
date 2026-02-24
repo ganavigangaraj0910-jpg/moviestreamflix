@@ -1,0 +1,10 @@
+
+@import "tailwindcss";
+.navbar {
+  @apply px-8 py-4 bg-[#1a1a1a] border-b border-[#e6e6e6];
+}
+
+.navbar-item {
+  @apply text-xl font-medium text-white no-underline  hover:text-[#ffe400] transition-colors;
+}
+

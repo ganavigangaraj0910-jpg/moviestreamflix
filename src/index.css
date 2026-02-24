@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.align_center {
+        @apply flex items-center justify-center gap-2.5;
+    }
+     
+    .align-between {
+        @apply flex justify-between items-center;
+    }
+    .align-left{
+        @apply flex justify-start items-center;
+    }
+    /* Add other reusable utilities */
+    .text_truncate {
+        @apply truncate overflow-hidden text-ellipsis;
+    }
+
+    .icon{
+    @apply w-7.5 h-7.5 ml-2;
+}
+
+  .rating_icon{
+    @apply w-4.5 h-4.5 ml-2;
+}

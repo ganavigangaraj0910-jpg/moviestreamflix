@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+.movie_list_header{
+    @apply px-2.5  mb-1.25 ;
+}
+
+.movie_filter_item{
+    @apply px-1.25 py-2.5 cursor-pointer active:border-b-2 border-red-500;
+}
+
+.movie_sorting{
+    @apply border-none outline-none h-7.5 px-0 py-1.25 rounded-sm mx-0 my-2.5;
+}
+
+.movie_card{
+    @apply flex flex-wrap justify-evenly  ;
+}
+
+.pagination{
+    @apply flex justify-center items-center gap-2.5 my-5;
+}
+
+.pagination-button{
+    @apply px-2.5 py-1.25 bg-blue-500 text-white rounded-sm cursor-pointer disabled:bg-gray-400 disabled:cursor-not-allowed;
+}
