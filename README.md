@@ -7,6 +7,7 @@ A movie listing web app built with React, TypeScript, and Vite.
 - React 
 - TypeScript
 - Vite
+- TanStack Query (React Query) — Server state management, caching & data fetching
 - TMDB API 
 
 ## ✨ Features
