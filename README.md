@@ -17,7 +17,7 @@ A movie listing web app built with React, TypeScript, and Vite.
 
 ## 🏃 How to Run Locally
 git clone https://github.com/ganavigangaraj0910-jpg/moviestreamflix.git
-cd moviestreamflix
-npm install
-npm run dev
+- cd moviestreamflix
+- npm install
+- npm run dev
 
